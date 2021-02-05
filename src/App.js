@@ -1,19 +1,8 @@
 import React from 'react';
+import PropTypes from "prop-types";
+import { render } from '@testing-library/react';
 
-function Food() {
-  return <h1>I like potato</h1>;
-
-  
-}
-
-
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello</h1>
-      <Food />
-    </div>
-  );
+class App extends React.Component {
 }
 
 export default App;
